@@ -23,4 +23,16 @@ Style.css módosítása után fájlok hozzáadása a gyűjteményhez
     -git add .
 
 Style.css módosításának rögzítése egy verzióban
-    .git commit -m "Style.css módosítva, új átmenetes háttérkép beállítva"
+    -git commit -m "Style.css módosítva, új átmenetes háttérkép beállítva"
+
+readme.md hozzáadása a gyűjteményhez
+    -git add readme.md
+
+változtatások rögzítése egy verzióban
+    -git commit -m "Readme.md fájl véglegesítése"
+
+távoli gyűjtemény megadása
+    -git remote add origin git@github.com:p98milan/petimilanvajk-gitvizsga-01-04.git
+
+feltöltés a távoli gyűjteménybe
+    -git push -u origin main
