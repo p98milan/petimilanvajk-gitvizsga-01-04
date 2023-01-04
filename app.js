@@ -13,6 +13,14 @@ const songs = ["hey", "summer", "ukulele", "river"];
 //Kiinduló zene indexe
 let songIndex = 2;
 
+//Az oldal betöltődésekor üzenet kiíratása a console-ba
+window.addEventListener("load", consoleLoad());
+
+function consoleLoad(){
+
+    console.log("Az oldal sikeresen betöltődött!");
+}
+
 //Zene adatainak betöltése a DOMba
 loadSong(songs[songIndex]);
 
